@@ -4,5 +4,6 @@
 ## Author: 静静 + 橘座-白银之手
 ## Version: 1.0.0
 ## OptionalDeps: LibSharedMedia-3.0
+## IconTexture: Interface\AddOns\SharedMedia-BR-jingjing\SharedMedia-BR-jingjing.tga
 
 SharedMedia-BR-jingjing.lua

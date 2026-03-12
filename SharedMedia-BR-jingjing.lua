@@ -17,7 +17,7 @@ local sounds = {
     "AddsOnYou.ogg",
     "AddsSoon.ogg",
     "AddsSpawn.ogg",
-    "AoE-DodgeFloo.ogg",
+    "AoE-DodgeFloor.ogg",
     "AoE.ogg",
     "AoEIncoming.ogg",
     "BigAddSoon.ogg",
@@ -37,11 +37,11 @@ local sounds = {
     "Thorns.ogg",
     "TotemUp.ogg",
     "WatchFront.ogg",
-    "WatchOutKnockup.ogg",
+    "WatchOutKnockUp.ogg",
     "WatchTether.ogg",
 }
 
 for _, fileName in ipairs(sounds) do
-    local displayName = "BR-jingjing/" .. fileName:gsub("%.ogg$", "")
+    local displayName = "BR-" .. fileName:gsub("%.ogg$", "")
     LSM:Register("sound", displayName, soundPath .. fileName)
 end
