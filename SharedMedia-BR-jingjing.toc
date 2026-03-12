@@ -1,0 +1,8 @@
+## Interface: 120001
+## Title: SharedMedia-BR-jingjing
+## Notes: Registers custom warning voice lines with LibSharedMedia-3.0.
+## Author: 静静 + 橘座-白银之手
+## Version: 1.0.0
+## OptionalDeps: LibSharedMedia-3.0
+
+SharedMedia-BR-jingjing.lua
